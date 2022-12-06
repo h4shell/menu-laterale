@@ -33,9 +33,16 @@
     top: 50px;
     padding: 20px 50px;
     z-index:2;
-    border-radius: 30px;
-    background: tansparent;
+    height: 100%;
+    background: transparent;
     transition: all 0.2s ease-in-out;
+    background: url("/img/burger.svg") no-repeat;
+    background-size: 80px 80px;   
+  }
+
+  .open{
+    background: url("/img/x.svg") no-repeat;
+    background-size: 80px 80px; 
   }
   
   .button:hover{
