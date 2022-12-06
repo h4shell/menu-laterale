@@ -52,7 +52,7 @@ a:visited {
   background: transparent;
   transition: all 0.2s ease-in-out;
   background: url("/img/burger.svg") no-repeat;
-  background-size: 80px 80px;   
+
 }
 
 .open{
@@ -81,7 +81,8 @@ ul{
 }
 
 h1{
-  font-size: 7rem
+  font-size: 7rem;
+  width: 900px;
 }
 
 li{
@@ -98,21 +99,21 @@ li{
 
   .button{
     position: fixed;
-    right: 20px;
+    right: 0px;
     top: 30px;
-    padding: 22px;
+    
     z-index:2;
-    height: 100%;
+    
     background: transparent;
     transition: all 0.2s ease-in-out;
     background: url("/img/burger.svg") no-repeat;
-    background-size: 40px 40px;   
+    
   }
 
 
   .open{
     background: url("/img/x.svg") no-repeat;
-    background-size: 40px 40px;   
+    
   }
 
   h1{
