@@ -148,12 +148,10 @@ li{
 
 
   .open{
-    background: url("../img/x.svg") no-repeat;
-    
+    background: url("../img/x.svg") no-repeat; 
   }
 
   h1{
     font-size: 3rem;
-    
   }
 }
