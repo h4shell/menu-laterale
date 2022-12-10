@@ -57,12 +57,12 @@ a:visited {
   height: 100%;
   background: transparent;
   transition: all 0.2s ease-in-out;
-  background: url("/img/burger.svg") no-repeat;
+  background: url("../img/burger.svg") no-repeat;
 
 }
 
 .open{
-  background: url("/img/x.svg") no-repeat;
+  background: url("../img/x.svg") no-repeat;
   background-size: 80px 80px; 
 }
 
@@ -137,19 +137,9 @@ li{
     position: fixed;
     right: 0px;
     top: 30px;
-    
-    z-index:2;
-    
-    background: transparent;
-    transition: all 0.2s ease-in-out;
-    background: url("../img/burger.svg") no-repeat;
-    
+
   }
 
-
-  .open{
-    background: url("../img/x.svg") no-repeat; 
-  }
 
   h1{
     font-size: 3rem;
