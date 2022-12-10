@@ -142,13 +142,13 @@ li{
     
     background: transparent;
     transition: all 0.2s ease-in-out;
-    background: url("/img/burger.svg") no-repeat;
+    background: url("../img/burger.svg") no-repeat;
     
   }
 
 
   .open{
-    background: url("/img/x.svg") no-repeat;
+    background: url("../img/x.svg") no-repeat;
     
   }
 
